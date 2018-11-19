@@ -26,7 +26,7 @@ class ExpenseController {
     this.model.addExpense({
       amount,
       date,
-      description
+      description,
     });
   }
 }
