@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Expense Tracker</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
-    <!-- <script src="./"></script> -->
     <h1>Expense Tracker</h1>
 
     <form id="new-expense-form">
@@ -23,7 +22,7 @@
         </div>
         <div class="form-group">
           <label for="amount">Amount</label>
-          <input id="amount" name="amount" type="text" placeholder="$10.00">
+          <input id="amount" name="amount" type="text" placeholder="56.35">
         </div>
       </div>
 
@@ -32,5 +31,13 @@
         <button type="submit">Save</button>
       </div>
     </form>
+
+    <div id="expenses"></div>
+
+    <script src="js/db.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
